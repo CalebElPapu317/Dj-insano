@@ -1,0 +1,76 @@
+body
+{
+  background-size: cover;	
+  font-family: 'Dancing Script', cursive;
+}
+.headin
+{
+  background-color: aqua;
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+
+}
+.note
+{
+  font-size: 15px;
+  color: black;
+}
+
+  .div_speed
+  {
+  	float: left;
+  }
+  .div_speed_img
+  {
+  	width: 200px; 
+  	border-radius: 440px;
+  }
+  #speed
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+  .div_volume
+  {
+  	float: right;	
+  }
+  .div_volume_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #volume
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+   #play_button
+  {
+  	width: 160px;
+  	font-size: 25px;
+  }
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+
+    animation-duration: 3s;
+    margin-top: 50px; 
+    animation-iteration-count:infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(6, 200, 207);}
+  to {box-shadow: 1px 1px 38px rgb(7, 239, 69);}
+
+}
+
+.xd{
+  background-color: rgb(179, 131, 0);
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+}

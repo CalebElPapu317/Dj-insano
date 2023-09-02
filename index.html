@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<title>APLICACIÓN WEB DE DJ CON AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background="xd.jpg">
+  <center>
+  	<h3 class="xd">App DJ con AI
+	    <br>
+	    <span class="note">NOTA - Mueve tu muñeca izquierda hacia arriba 
+			y abajo para subir o bajar el volumen.
+			 Mueve to muñeca derecha hacia arriba o abajo para aumentar o 
+			 reducir la velocidad. </span>
+  	</h3>
+
+	<div class="div_speed">
+		<img src="xd.jpg" class="div_speed_img">
+		<br>
+		<h3 class="btn btn-warning" id="speed">Velocidad</h3>
+	</div>
+
+	<div class="div_volume">
+		<img src="xd.jpg" class="div_volume_img">
+		<br>
+		<h3 class="btn btn-warning" id="volume">Volumen</h3>
+	</div>
+
+	<br><br>
+
+	<button onclick="play();" id="play_button" class="btn btn-warning">Reproducir</button>
+
+	<div>
+		
+		<label for="opciones" style="font-size: 25px;">Elije xd</label>
+		<select name="options-names" id="options-names">
+
+			<option value="Maxwell">Maxwell</option>
+			<option value="Tear for Fears">Every body want tu rule the world</option>
+
+		</select>
+
+	</div>
+	
+
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
